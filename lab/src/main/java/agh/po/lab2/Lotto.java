@@ -21,7 +21,7 @@ while(numbers.size()<6) {
 }
 
         System.out.println(numbers);
-
+        System.out.prntln(numbers);
 
 
 
