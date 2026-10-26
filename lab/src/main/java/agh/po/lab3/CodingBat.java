@@ -8,5 +8,15 @@ public class CodingBat {
         }
         return str.substring(0,str.length()/2);
     }
+    public int[] fizzArray(int n) {
+        int[] result=new int[n];
+        if (n == 0){
+            return new int[0];
+        }
+        for (int i = 0; i < n; i++){
+            result[i]=i;
+        }
+        return result;
+    }
 
 }
