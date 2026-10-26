@@ -24,4 +24,5 @@ public class CodingBat {
         }
         return 21 - n;
 
+    }
 }
