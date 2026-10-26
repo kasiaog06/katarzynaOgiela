@@ -15,4 +15,10 @@ public class CodingBatTest {
         CodingBat codingBat= new CodingBat();
         assertArrayEquals(new int[]{0,1,2,3,4}, codingBat.fizzArray(5));
     }
+    @org.junit.Test
+    public void diff21() {
+        CodingBat codingBat= new CodingBat();
+        assertEquals(3,codingBat.diff21(18));
+    }
+
 }
